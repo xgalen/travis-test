@@ -1,8 +1,16 @@
 {
-	"name": "energy-api",
-	"version": "0.0.1",
-	"private": true,
-	"dependencies": {
-		"express": "4.x.x"
-	}
+    "name": "energy-api",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+	    "test": "make test"
+    },
+    "dependencies": {
+        "express": "4.x.x",
+        "mocha": "1.x.x",
+        "supertest": "0.10.x",
+	"should": "3.2.x",
+	"mysql": "2.5.x",
+	"jade": "1.9.x"
+    }
 }
