@@ -3,7 +3,7 @@ var express = require('express'),
     mysql = require('mysql'),
     app = module.exports = express(),
     familias = require('./lib/familias');
-app.set('mysqlConf', require('./mysql'));
+//app.set('mysqlConf', require('./mysql'));
 app.set('view engine', 'jade');
 //global.mysql = global.mysql ? global.mysql : mysql.createConnection(app.settings.mysqlConf);
 
