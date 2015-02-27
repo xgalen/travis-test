@@ -24,6 +24,7 @@ describe('GET', function () {
             done();
         });
     });
+    /*
     it('obtener las familias', function (done) {
         request(app).get('/api/familias?auth=1').expect(200).end(function (err, res) {
             if (err) {
@@ -56,4 +57,5 @@ describe('GET', function () {
         });
 
     });
+    */
 });
