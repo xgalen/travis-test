@@ -5,7 +5,7 @@ var express = require('express'),
     familias = require('./lib/familias');
 app.set('mysqlConf', require('./mysql'));
 app.set('view engine', 'jade');
-global.mysql = global.mysql ? global.mysql : mysql.createConnection(app.settings.mysqlConf);
+//global.mysql = global.mysql ? global.mysql : mysql.createConnection(app.settings.mysqlConf);
 
 function info(req, res) {
     var data = {
