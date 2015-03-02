@@ -23,6 +23,7 @@ function auth(req, res, next) {
         res.end();
     }
 }
+// hola
 // API
 app.all('/api*', auth); 
 app.get('/api', info);
